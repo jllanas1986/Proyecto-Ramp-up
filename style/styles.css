@@ -41,6 +41,9 @@ body {
     text-align: center;
 }
 
+main {
+    padding-bottom: 50px;
+}
 
 img {
     width: 120%;
