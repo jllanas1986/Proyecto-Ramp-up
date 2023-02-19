@@ -24,13 +24,23 @@ header {
     padding: 2%;
 }
 
-header:hover {
+.itemNavegacion {
     color: black;
 }
 
+.itemNavegacion:hover {
+    color: var(--alvero)
+}
 body {
     background-color: var(--alvero);
 }
+
+.mensajedebienvenida {
+    font-family: fantasy;
+    font-size: 300%;
+    text-align: center;
+}
+
 
 img {
     width: 120%;
@@ -38,19 +48,109 @@ img {
 
 h1 {
     font-weight: 900;
+    margin: 7;
 }
 
 p {
-    font-size: 50px;
+    font-size: 15px;
 }
 
+#parrafoportada {
+    font-family: fantasy;
+    font-size: 40px;
+    text-align: center
+    
+}
+
+footer {
+    background-color: #a16731;
+    height: 60px;
+    font-weight: 1000;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.socialnetworks {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    column-gap: 20px;
+    align-items: center;
+}
+
+.social {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+#enlaceportada {
+    background: rgb(39, 17, 2);
+    border-radius: 10em;
+    color:#a16731
+    
+    
+}
 
 /*BIOGRAFY page*/
 
+.main_sectionDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+.main_sectionDiv2 {
+    display: flex;
+}
+
+.fotocafemundo {
+    width: 50%;
+}
+p {
+    margin: 2rem;
+    font-size: 15px;
+}
+
+.fotoplantacafe {
+    width: 50%
+}
 
 /*PORTFOLIO page*/
 
+.flex-container {
+    background-color: white;
+}
 
+.videocafe {
+    position: center;
+}
+.fotocafeconleche {
+    width: 10%
+}
 
-/*CONTACT page*/
+.tiposcafe {
+    background-color: white;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    column-gap: 20px;
+}
+
+.taza {
+    background: white;
+    font-family: fantasy;
+}
+

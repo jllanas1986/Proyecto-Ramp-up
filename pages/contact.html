@@ -10,41 +10,58 @@
 <body>
     <header>
         <nav>
-            <a href="./biografy.html">Fruto |</a>
-            <a href="./portfolio.html">Producto |</a>
-            <a href="./contact.html">Contacto |</a>
-            <a href="../index.html">Home</a>
+            <a href="index.html" class="itemNavegacion">Home |</a>
+            <a href="../pages/biografy.html" class="itemNavegacion">Fruto |</a>
+            <a href="../pages/portfolio.html" class="itemNavegacion">Producto |</a>
+            <a href="../pages/contact.html" class="itemNavegacion">Contacto</a>
         </nav>
     </header>
-    <form >
-        <section>
-        <h1>Tomamos un cafe y hablamos?</h1>
-            <fieldset>
-                <legend>Si quieres saber mas sobre el café?</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" tabindex="1" autofocus>
-                <br>
-                <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellido" placeholder="Escribe tus apellidos" id="apellidos" tabindex="2">
-                <br>
-                <label for="edad">Edad</label>
-                <input typenumber="number" name="edad" placeholder="Escribe tu edad" id="edad" tabindex="3">
-                <br>
-                <br>
-                <input type="radio" id="mujer" name="sexo" value="Mujer">
-                <label for="mujer">Mujer</label><br>
-                <input type="radio" id="hombre" name="sexo" value="Hombre">
-                <label for="hombre">Hombre</label><br>
-                <br>
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email">
-                <br>
-                <br>
-                <textarea name="message" placeholder="Escribe algo sobre tí:" rows="5" cols="30">Escribe tu pregunta
-                </textarea>
-            </fieldset>
-            <br>
-            <img src="../assets/images/contact/fotoform.jpg" alt="">
-        </section>
+    <main class="tc">
+            <form>
+                <h1>Tomamos un cafe y hablamos?</h1>
+                <fieldset>
+                    <legend>Si quieres saber mas sobre el café</legend>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Escribe tu nombre" id="nombre" tabindex="1" autofocus>
+                    <br>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellido" placeholder="Escribe tus apellidos" id="apellidos" tabindex="2">
+                    <br>
+                    <label for="edad">Edad</label>
+                    <input typenumber="number" name="edad" placeholder="Escribe tu edad" id="edad" tabindex="3">
+                    <br>
+                    <br>
+                    <input type="radio" id="mujer" name="sexo" value="Mujer">
+                    <label for="mujer">Mujer</label><br>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre">
+                    <label for="hombre">Hombre</label><br>
+                    <br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <br>
+                    <textarea name="message" placeholder="Escribe algo sobre tí:" rows="5" cols="30">Escribe tu pregunta
+                    </textarea>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Resetear">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="socialnetworks">
+            <a href="https://es-es.facebook.com/" target="_blank">
+            <img class="logo" src="/assets/images/logoface.png" alt="Logo Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+            <img class="logo" src="/assets/images/logoinsta.png" alt="Logo Instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+            <img class="logo" src="/assets/images/logotwtr.png" alt="Logo Twitter">
+            </a>
+            </div>
+            <span class="copyright">@<strong>JoseLlanas</strong></span>
+    </footer>
+</main>
 </body>
 </html>

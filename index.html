@@ -8,27 +8,38 @@
     <link rel="stylesheet" href="./style/styles.css">
     <title>Home</title>
 </head>
-
 <body>
     <header>
         <nav>
-            <a href="./pages/biografy.html">Fruto |</a>
-            <a href="./pages/portfolio.html">Producto |</a>
-            <a href="./pages/contact.html">Contacto |</a>
-            <a href="index.html">Home</a>
+            <a href="/index.html" class="itemNavegacion">Home |</a>
+            <a href="/pages/biografy.html" class="itemNavegacion">Fruto |</a>
+            <a href="/pages/portfolio.html" class="itemNavegacion">Producto |</a>
+            <a href="/pages/contact.html" class="itemNavegacion">Contacto</a>
         </nav>
     </header>
-    <br>
-    <br>
-    <h1>Bienvenido al templo del cafe</h1>
+    <main>
+    <h1 class="mensajedebienvenida">BIENVENIDO AL TEMPLO DEL CAFE</h1>
     <section>
-        <img src="assets/images/imagencafe2.webp">
-        <p>Pulsa <a href="pages/biografy.html">aqui</a> para saber mas de esta mágica bebida</p>
+        <img src="assets/images/imagencafe2.webp" id="imgportada">
+        <p id="parrafoportada">Pulsa <a href="pages/biografy.html" id="enlaceportada">aqui
+        </a> para saber mas sobre esta mágica bebida</p>
     </section>
     </main>
-
     <footer>
-
+    <div class="socialnetworks">
+        <div class="social">
+            <a href="https://es-es.facebook.com/" target="_blank">
+            <img class="logo" src="/assets/images/logoface.png" alt="Logo Facebook">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+            <img class="logo" src="/assets/images/logoinsta.png" alt="Logo Instagram">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+            <img class="logo" src="/assets/images/logotwtr.png" alt="Logo Twitter">
+            </a>
+        </div>
+        <span class="copyright">@<strong>JoseLlanas</strong></span>
+    </div>
     </footer>
 </body>
 

@@ -1,43 +1,34 @@
-# Título del Proyecto
+# SITIO WE DE INFORMACION SOBRE EL CAFE
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_La idea del proyecto es realizar una pagina web informativa realcionada con el café, dar a conocer el fruto, el proceso productivo y dar información adicional a quien la quiera solicitar a través de un formulario_
 
-## Comenzando 🚀
+## El viaje 🚀
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
+_El viaje comienza entrando a la pagina principal, clickas el enlace y accedes a las secciones de informacion._
 
 
-### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
 
-```
-Da un ejemplo
-```
+## Codigo HTML 📋
 
-### Instalación 🔧
+_He utilizado 4 documentos para cada una de las paginas:
+Home, sería la página principal.
+Frutos, la pagina de biografia.
+Producto, la referente al porfolio.
+Contact, el formulario_
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+## Interacción 🔧
 
-_Dí cómo será ese paso_
+_he instalado un bloque de navegación para ir accediendo a cada una de las paginas_
 
 ```
-Da un ejemplo
+Por ejemplo, desde la pagina de Home, si clickas en la pagina de Frutos en el encabezado puedes acceder a la pagina de informacion del fruto.
 ```
-
-_Y repite_
-
 ```
-hasta finalizar
-```
+## Codigo CSS ⚙️
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+_He nombrado con comentario cada una de las paginas y he distribuido el estilo en cada una de ellas conforme a si su contenido esta dentro de cada una de ellas.
+He aplicado un tipo de fuente importada desde el incio, para después aplicar_
 
 ### Analice las pruebas end-to-end 🔩
 
