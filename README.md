@@ -1,12 +1,10 @@
-# SITIO WE DE INFORMACION SOBRE EL CAFE
+# SITIO WEB DE INFORMACION SOBRE EL CAFE
 
 _La idea del proyecto es realizar una pagina web informativa realcionada con el café, dar a conocer el fruto, el proceso productivo y dar información adicional a quien la quiera solicitar a través de un formulario_
 
 ## El viaje 🚀
 
 _El viaje comienza entrando a la pagina principal, clickas el enlace y accedes a las secciones de informacion._
-
-
 
 
 ## Codigo HTML 📋
@@ -24,7 +22,7 @@ _he instalado un bloque de navegación para ir accediendo a cada una de las pagi
 ```
 Por ejemplo, desde la pagina de Home, si clickas en la pagina de Frutos en el encabezado puedes acceder a la pagina de informacion del fruto.
 ```
-```
+
 ## Codigo CSS ⚙️
 
 _He nombrado con comentario cada una de las paginas y he distribuido el estilo en cada una de ellas conforme a si su contenido esta dentro de cada una de ellas.
